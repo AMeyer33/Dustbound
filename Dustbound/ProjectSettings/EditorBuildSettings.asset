@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: a2123f1c2c3d60c46a6cee62db3e42df
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 762f4f8eb19355446b736945ebbad43f
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 44468b766f7ce244ebd1729bba053fea
+  - enabled: 1
+    path: Assets/Scenes/MinibossLevel.unity
+    guid: 4aeee1eca124f8f40a533913b59be1b7
+  - enabled: 1
+    path: Assets/Scenes/BossLevel.unity
+    guid: 1c80a875da6451349916d213119e4b11
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
