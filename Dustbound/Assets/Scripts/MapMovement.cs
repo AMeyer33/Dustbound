@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MapMovement : MonoBehaviour
 {
@@ -15,13 +16,12 @@ public class MapMovement : MonoBehaviour
 
     void Start()
     {
-        // Place player at first node
         player.position = levelNodes[currentLevel].position;
     }
 
     void Update()
     {
-        // Handle movement
+        // Move character if currently travelling
         if (isMoving)
         {
             MovePlayer();
@@ -29,19 +29,19 @@ public class MapMovement : MonoBehaviour
         }
 
         // Move right
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
         {
             MoveToLevel(currentLevel + 1);
         }
 
         // Move left
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
         {
             MoveToLevel(currentLevel - 1);
         }
 
         // Select level
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
             SelectLevel();
         }
@@ -66,7 +66,6 @@ public class MapMovement : MonoBehaviour
             moveSpeed * Time.deltaTime
         );
 
-        // Check if player has arrived
         if (Vector3.Distance(player.position, targetPosition) < 0.01f)
         {
             player.position = targetPosition;
@@ -77,7 +76,5 @@ public class MapMovement : MonoBehaviour
     void SelectLevel()
     {
         Debug.Log("Selected Level " + (currentLevel + 1));
-
-        // We'll add scene loading later
     }
 }
