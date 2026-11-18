@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,12 +30,14 @@ public class MapMovement : MonoBehaviour
         // Move right
         if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
         {
+            player.localRotation = Quaternion.Euler(0f, 0f, 0f);
             MoveToLevel(currentLevel + 1);
         }
 
         // Move left
         if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
         {
+            player.localRotation = Quaternion.Euler(0f, 180f, 0f);
             MoveToLevel(currentLevel - 1);
         }
 
