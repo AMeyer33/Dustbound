@@ -3,12 +3,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("References")]
+    public Transform player;
+
     [Header("Movement")]
-    public float moveSpeed = 10f;
+    public float moveSpeed = 7f;
     private float horizontalInput;
 
     [Header("Jumping")]
-    public float jumpForce = 12f;
+    public float jumpForce = 8f;
 
     // Gravity while moving upward and holding jump
     public float jumpGravityMultiplier = 1.5f;
@@ -56,12 +59,14 @@ public class PlayerMovement : MonoBehaviour
                 Keyboard.current.leftArrowKey.isPressed)
             {
                 horizontalInput = -1f;
+                player.localRotation = Quaternion.Euler(0f, 180f, 0f);
             }
 
             if (Keyboard.current.dKey.isPressed ||
                 Keyboard.current.rightArrowKey.isPressed)
             {
                 horizontalInput = 1f;
+                player.localRotation = Quaternion.Euler(0f, 0f, 0f);
             }
 
             // Jump input
