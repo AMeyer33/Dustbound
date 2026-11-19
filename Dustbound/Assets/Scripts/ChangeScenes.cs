@@ -37,4 +37,9 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene("TitleScreen");
     }
+
+    public void GotoSceneTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
 }

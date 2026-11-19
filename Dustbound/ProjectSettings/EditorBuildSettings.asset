@@ -23,5 +23,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossLevel.unity
     guid: 1c80a875da6451349916d213119e4b11
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 5238c30e11269df479ce7f0b74b56690
+  - enabled: 1
+    path: Assets/Scenes/Question.unity
+    guid: e43aa4d6b12841d4f838c0ec7f46ba36
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 826d14dce82371e44b40960ecaa1dedc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
