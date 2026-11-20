@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a68cdccd81295394490bb15b91aa4c76
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206205
+  packageName: Free Mega Minimal Pixel Pack
+  packageVersion: 1.2
+  assetPath: Assets/PixelPackMinimal/Animation/BlockBounce.controller
+  uploadId: 943584

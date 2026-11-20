@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1ed3617ff2b20549b6fd53b4fb71d1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206205
+  packageName: Free Mega Minimal Pixel Pack
+  packageVersion: 1.2
+  assetPath: Assets/PixelPackMinimal/Animation/EnemyDeath.controller
+  uploadId: 943584

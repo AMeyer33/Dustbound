@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abe312f536c63c844a6cff679a72abf7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206205
+  packageName: Free Mega Minimal Pixel Pack
+  packageVersion: 1.2
+  assetPath: Assets/PixelPackMinimal/Animation/Teleport.controller
+  uploadId: 943584
