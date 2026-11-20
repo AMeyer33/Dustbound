@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c3c55c052f6ab4459fc501a81225d17
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206205
+  packageName: Free Mega Minimal Pixel Pack
+  packageVersion: 1.2
+  assetPath: Assets/PixelPackMinimal/Animation/Explosion.controller
+  uploadId: 943584

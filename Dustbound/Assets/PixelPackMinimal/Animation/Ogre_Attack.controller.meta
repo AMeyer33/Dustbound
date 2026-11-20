@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 217e47d9216687a45a28c39c5370aa6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206205
+  packageName: Free Mega Minimal Pixel Pack
+  packageVersion: 1.2
+  assetPath: Assets/PixelPackMinimal/Animation/Ogre_Attack.controller
+  uploadId: 943584
