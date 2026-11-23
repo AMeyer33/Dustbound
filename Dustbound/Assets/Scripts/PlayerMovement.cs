@@ -70,7 +70,9 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Jump input
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            if (Keyboard.current.spaceKey.wasPressedThisFrame ||
+                Keyboard.current.upArrowKey.isPressed ||
+                Keyboard.current.wKey.isPressed)
             {
                 jumpRequested = true;
             }
